@@ -2,6 +2,19 @@
 
 ![Index](./src/images/index.png) ![Library](./src/images/library.png)![SoundStudio](./src/images/mountain.png)
 
+## Run via docker-compose
+Preinstall npm required packages
+```sh
+docker-compose run --rm melodyjs npm install
+```
+
+Run in development mode:
+```sh
+docker-compose up melodyjs
+```
+
+Development site will be available at URL: http://localhost:3000/
+
 ## About MelodyJS:
 
 This project explores the **ToneJS** library, the **ReactJS** framework, **bootstrap** and vanilla JavaScript to create an interactive and visual tool to create music.
